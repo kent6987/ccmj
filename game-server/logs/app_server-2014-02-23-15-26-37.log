@@ -1,0 +1,3 @@
+[2014-02-23 15:26:40.600] [ERROR] game-server\app.js -  Caught exception: Error: spawn OK
+    at errnoException (child_process.js:980:11)
+    at Process.ChildProcess._handle.onexit (child_process.js:771:34)

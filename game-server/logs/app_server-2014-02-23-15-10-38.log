@@ -1,0 +1,23 @@
+[2014-02-23 15:10:39.378] [ERROR] game-server\app.js -  Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at Server.listen (net.js:1127:5)
+    at Object.exports.listen (E:\pomelo-master\ccmj\game-server\node_modules\pomelo\node_modules\socket.io\lib\socket.io.js:74:12)
+    at MasterAgent.listen (E:\pomelo-master\ccmj\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\masterAgent.js:59:21)
+    at ConsoleService.start (E:\pomelo-master\ccmj\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js:67:14)
+    at Server.start (E:\pomelo-master\ccmj\game-server\node_modules\pomelo\lib\master\master.js:32:22)
+    at pro.start (E:\pomelo-master\ccmj\game-server\node_modules\pomelo\lib\components\master.js:36:15)
+    at E:\pomelo-master\ccmj\game-server\node_modules\pomelo\lib\util\appUtil.js:89:19
+[2014-02-23 15:10:44.685] [ERROR] game-server\app.js -  Caught exception: Error: spawn OK
+    at errnoException (child_process.js:980:11)
+    at Process.ChildProcess._handle.onexit (child_process.js:771:34)
+[2014-02-23 15:10:44.707] [ERROR] game-server\app.js -  Caught exception: Error: spawn OK
+    at errnoException (child_process.js:980:11)
+    at Process.ChildProcess._handle.onexit (child_process.js:771:34)
+[2014-02-23 15:10:44.732] [ERROR] game-server\app.js -  Caught exception: Error: spawn OK
+    at errnoException (child_process.js:980:11)
+    at Process.ChildProcess._handle.onexit (child_process.js:771:34)
+[2014-02-23 15:10:44.756] [ERROR] game-server\app.js -  Caught exception: Error: spawn OK
+    at errnoException (child_process.js:980:11)
+    at Process.ChildProcess._handle.onexit (child_process.js:771:34)

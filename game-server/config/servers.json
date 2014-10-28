@@ -1,0 +1,30 @@
+{
+  "development":{
+    "connector": [
+    {"id": "connector-server-1", "host": "10.130.140.93", "port": 23150, "clientPort": 23010, "frontend": true}
+    ],
+    "card": [
+          {"id": "card-server-1", "host": "10.130.140.93", "port": 23250, "card": 1}
+    ],
+    "auth": [
+          {"id": "auth-server-1", "host": "10.130.140.93", "port": 23650}
+     ],
+    "gate": [
+          {"id": "gate-server-1", "host": "10.130.140.93", "clientPort": 23014, "frontend": true}
+      ]
+  },
+  "production":{
+    "connector": [
+    {"id": "connector-server-1", "host": "10.130.140.93", "port": 23150, "clientPort": 23010, "frontend": true}
+    ],
+      "card": [
+          {"id": "card-server-1", "host": "10.130.140.93", "port": 23250, "card": 1}
+      ],
+      "auth": [
+          {"id": "auth-server-1", "host": "10.130.140.93", "port": 23650}
+      ],
+      "gate": [
+          {"id": "gate-server-1", "host": "10.130.140.93", "clientPort": 23014, "frontend": true}
+      ]
+  }
+}

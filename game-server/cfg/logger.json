@@ -1,0 +1,5 @@
+{
+    "filename" : "logs/app_server.log",
+    "levels": "ALL",
+    "console": true
+}

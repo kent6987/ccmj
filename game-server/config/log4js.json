@@ -1,0 +1,18 @@
+{
+    "appenders": [
+        {
+            "type": "file",
+            "filename": "./logs/logsde-log-${opts:time}.log",
+            "fileSize": 1048576,
+            "level" : "debug",
+            "layout": {
+                "type": "basic"
+            },
+            "backups": 10
+        },
+        {
+            "type": "console"
+        }
+    ],
+    "replaceConsole": true
+}

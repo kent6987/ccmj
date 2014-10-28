@@ -1,0 +1,17 @@
+{
+    "development": {
+        "host" : "10.130.130.27",
+        "port" : "3306",
+        "database" : "test",
+        "user" : "shark",
+        "password" : ""
+    },
+
+    "production": {
+        "host" : "10.130.130.27",
+        "port" : "3306",
+        "database" : "test",
+        "user" : "shark",
+        "password" : ""
+    }
+}

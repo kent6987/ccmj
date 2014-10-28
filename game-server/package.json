@@ -1,0 +1,15 @@
+{
+  "name": "changchunmajjiang2",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+      "pomelo":"0.7.1",
+      "pomelo-sync-plugin": "0.0.1",
+      "pomelo-logger": "0.0.3",
+      "pomelo-schedule": "0.3.6",
+      "log4js": "0.5.7",
+      "async": "0.2.5",
+      "mysql": ">=2.0"
+  }
+}
+

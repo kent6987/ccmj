@@ -1,0 +1,7 @@
+[2014-02-23 15:09:53.587] [ERROR] game-server\app.js -  Caught exception: TypeError: Cannot read property 'cardCron' of undefined
+    at scheduleCrons (E:\pomelo-master\ccmj\game-server\node_modules\pomelo\lib\server\server.js:412:27)
+    at pro.afterStart (E:\pomelo-master\ccmj\game-server\node_modules\pomelo\lib\server\server.js:63:3)
+    at Component.afterStart (E:\pomelo-master\ccmj\game-server\node_modules\pomelo\lib\components\server.js:47:14)
+    at E:\pomelo-master\ccmj\game-server\node_modules\pomelo\lib\util\appUtil.js:89:19
+    at iterate (E:\pomelo-master\ccmj\game-server\node_modules\async\lib\async.js:123:13)
+    at process._tickCallback (node.js:415:13)
